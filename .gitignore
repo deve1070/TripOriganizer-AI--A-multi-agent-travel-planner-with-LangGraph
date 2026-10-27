@@ -137,7 +137,8 @@ celerybeat.pid
 *.rdb
 *.aof
 *.pid
-
+.env
+/venv
 # RabbitMQ
 mnesia/
 rabbitmq/
@@ -148,7 +149,7 @@ activemq-data/
 
 # SageMath parsed files
 *.sage.py
-
+.vscode/
 # Environments
 .env
 .envrc
